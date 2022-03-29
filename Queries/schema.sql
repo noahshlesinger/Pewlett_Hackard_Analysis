@@ -161,7 +161,7 @@ INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
 -- Create new table for retiring employees for Sales Department
-SELECT d.dept_name, e.first_name, e.last_name, e.emp_no
+SELECT d.dept_name, e.emp_no, e.first_name, e.last_name
 -- INTO retirement_info
 FROM employees as e
 INNER JOIN dept_emp AS de
@@ -171,6 +171,7 @@ ON (de.dept_no = d.dept_no)
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31')
 AND de.dept_no IN ('d007','d005')
+ORDER BY e.emp_no
 
 -- Check the table
 SELECT * FROM departments;
