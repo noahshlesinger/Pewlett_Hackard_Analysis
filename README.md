@@ -8,5 +8,4 @@ With so many employees reaching the age of retirement, it became necessary to de
 * With so many retiring employees and a roughly equal number being hired in the near future, the company though it would be a great idea to have the older employees train on the new ones in a part-time fashion to allow for the retirees to slowly phase-out of the comapny. 
 * The code required simply needed to take the retiring employees list that was already produced, and look at the hire date and to date. Doing this offers insight to whether or not the employee has been at the job for long enough to have experience to pass on as well as if they are still at the company.
 ## Summary
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+From the anlysis of retiring employees at Pewlett Hackard, there are 1,549 employees at or near retirement age and whom are currently employed at the company. These employees are eligible for the mentorship program to onborad the new hires. 
